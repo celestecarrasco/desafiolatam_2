@@ -1,0 +1,42 @@
+body{
+        font-family: 'sans-serif','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana;
+        margin: 0px;
+    }
+.header{
+        height: 15em;
+        background-image:url("../img/niñosbannerfondo.jpg");
+        color: white;
+        background-repeat: no-repeat;
+        padding: 5em;
+        text-shadow: 0.3em 0.3em 0.15em black;/*el color de texto se perdia en la imagen asi que aplique una sombra*/
+        background-size: cover;
+        background-position: center;
+    }
+h1{
+    font-weight: 400;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+    }
+.imagenes{
+        justify-content: center;
+        margin-top: 50px;
+        display: flex;
+        padding: 50px;
+        color: black;
+    }
+.products{
+        padding-left: 100px;
+        margin-top: 50px;
+    }
+.footer{
+        text-align: center;
+        background-color: rgb(155, 231, 198);
+        color:rgb(0, 0, 0);
+        height: 45px;
+        padding: 0.2rem;
+    }
+.footer p{
+         font-family: 'sans-serif','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana;
+    }
